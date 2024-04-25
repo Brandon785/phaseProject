@@ -13,7 +13,7 @@ struct phaseProfile{
       double T = x[2];
       //std::cout<<"T is : "<<T<<std::endl;
       xd[0] = x[1];
-      xd[1] = -a*x[1] + T - K*sin(x[0]);
+      xd[1] = -(a*x[1]) + T - (K*sin(x[0]));
    }
 };
 
