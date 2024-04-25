@@ -1,0 +1,2 @@
+add_executable(phaseProfile phaseProfile.cpp)
+target_link_libraries(phaseProfile ascent)
