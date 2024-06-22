@@ -10,7 +10,7 @@ struct phaseProfile{
    // x[1] = omega w
    // x[2] = Torque
    void operator()(const state_t& x, state_t& xd, const double){
-      static constexpr double a = .5; // was .1
+      static constexpr double a = .25; // was .1
       static constexpr double K = 1;
       //static constexpr double T = .5;
       double T = x[2];
